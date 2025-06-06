@@ -37,6 +37,7 @@ const About = ({
     );
     if (text) onChangeHandler(text, 'objective');
   };
+
   return (
     <Fragment>
       <RichtextEditor
