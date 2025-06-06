@@ -50,7 +50,7 @@ const AwardComp: React.FC<IAwardComp> = ({ awardInfo, currentIndex }) => {
   return (
     <Fragment>
       <TextField
-        label="Award name"
+        label="Registration or curricula"
         variant="filled"
         value={awardInfo.title}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -64,7 +64,7 @@ const AwardComp: React.FC<IAwardComp> = ({ awardInfo, currentIndex }) => {
         sx={{ marginBottom: '26px' }}
       />
       <TextField
-        label="Awarded by"
+        label="Issuing body"
         variant="filled"
         value={awardInfo.awarder}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -94,7 +94,7 @@ const AwardComp: React.FC<IAwardComp> = ({ awardInfo, currentIndex }) => {
         }}
       />
       <RichtextEditor
-        label="About the award"
+        label="Details"
         value={awardInfo.summary}
         onChange={onSummaryChange}
         name="summary"
