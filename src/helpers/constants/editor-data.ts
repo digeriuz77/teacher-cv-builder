@@ -16,7 +16,20 @@ export const headers: {
   },
   education: { title: 'Education', component: EducationLayout },
   experience: { title: 'Experience', component: ExperienceLayout },
-  activities: { title: 'Activities', component: ActivitiesLayout },
-  volunteering: { title: 'Volunteering', component: VolunteeringLayout },
-  awards: { title: 'Awards', component: AwardsLayout },
+  'prof-development-activities': {
+    title: 'Professional Development Activities',
+    component: ActivitiesLayout,
+  },
+  'other-curricula-activities': {
+    title: 'Other-Curricula Activities',
+    component: ActivitiesLayout,
+  },
+  certification: {
+    title: 'Professional Certification',
+    component: VolunteeringLayout,
+  },
+  registration: {
+    title: 'Registration & Curricula Familiarity',
+    component: AwardsLayout,
+  },
 };

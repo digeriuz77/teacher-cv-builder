@@ -7,7 +7,6 @@ import { useTemplates } from '@/stores/useTemplate';
 import { useThemes } from '@/stores/themes';
 import { useZoom } from '@/stores/useZoom';
 
-// TODO: need to define types
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export let StateContext: Context<any> = createContext(null);
 

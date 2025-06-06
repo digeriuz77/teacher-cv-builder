@@ -17,12 +17,12 @@ export interface IAllActivityTabs {
 const allActivityTabs: IAllActivityTabs = {
   involvements: {
     key: 'involvements',
-    label: 'Involvements',
+    label: 'Professional Development Activities',
     component: Involvements,
   },
   achievements: {
     key: 'achievements',
-    label: 'Achievements',
+    label: 'Other-Curricula Activities',
     component: Achievements,
   },
 };
