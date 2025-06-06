@@ -21,7 +21,7 @@ const About = ({
     }
     const text = await geminiGenerate(
       apiKey,
-      `Rewrite this summary for an education professional: ${basicTabs.summary}`
+      `Rewrite this summary for an educator's CV, highlighting teaching expertise and classroom achievements: ${basicTabs.summary}`
     );
     if (text) onChangeHandler(text, 'summary');
   };
@@ -33,10 +33,11 @@ const About = ({
     }
     const text = await geminiGenerate(
       apiKey,
-      `Rewrite this career objective for an education professional: ${basicTabs.objective}`
+      `Rewrite this career objective for an educator's CV, focusing on curriculum development and student outcomes: ${basicTabs.objective}`
     );
     if (text) onChangeHandler(text, 'objective');
   };
+
   return (
     <Fragment>
       <RichtextEditor
