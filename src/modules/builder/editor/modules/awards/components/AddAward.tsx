@@ -29,7 +29,7 @@ const AddAward = ({
 
   const buttonCaption = useMemo(() => {
     if (isEmpty) {
-      return '+ Add an award';
+      return '+ Add registration or curricula item';
     } else {
       return '+ Add more';
     }

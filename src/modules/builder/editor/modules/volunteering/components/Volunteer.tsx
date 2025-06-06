@@ -61,7 +61,7 @@ const Volunteer: React.FC<IVolunteerProps> = ({ volunteeringInfo, currentIndex }
   return (
     <Fragment>
       <TextField
-        label="Organisation"
+        label="Certification"
         variant="filled"
         value={volunteeringInfo.organization}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -75,7 +75,7 @@ const Volunteer: React.FC<IVolunteerProps> = ({ volunteeringInfo, currentIndex }
         sx={{ marginBottom: '26px' }}
       />
       <TextField
-        label="Role"
+        label="Issued by"
         variant="filled"
         value={volunteeringInfo.position}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -88,7 +88,7 @@ const Volunteer: React.FC<IVolunteerProps> = ({ volunteeringInfo, currentIndex }
         sx={{ marginBottom: '26px' }}
       />
       <DatePicker
-        label="Start date"
+        label="Issue date"
         value={dayjs(volunteeringInfo.startDate)}
         onChange={(newDate) => {
           onChangeHandler('startDate', newDate);
@@ -99,14 +99,14 @@ const Volunteer: React.FC<IVolunteerProps> = ({ volunteeringInfo, currentIndex }
         }}
       />
       <SwitchWidget
-        label={'I currently volunteer here'}
+        label={'This certification does not expire'}
         value={volunteeringInfo.isVolunteeringNow ?? false}
         onChange={(newValue: boolean) => {
           onChangeHandler('isVolunteeringNow', newValue);
         }}
       />
       <DatePicker
-        label="End date"
+        label="Expiry date"
         value={volunteeringInfo.isVolunteeringNow ? null : dayjs(volunteeringInfo.endDate)}
         onChange={(newDate) => {
           onChangeHandler('endDate', newDate);
@@ -124,7 +124,7 @@ const Volunteer: React.FC<IVolunteerProps> = ({ volunteeringInfo, currentIndex }
         disabled={volunteeringInfo.isVolunteeringNow}
       />
       <RichtextEditor
-        label="Few points on this volunteering experience"
+        label="Few details about this certification"
         value={volunteeringInfo.summary}
         onChange={onSummaryChange}
         name="summary"
