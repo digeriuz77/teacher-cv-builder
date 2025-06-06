@@ -29,6 +29,11 @@ Features:
 - Simple interface that helps you build quickly!
 - No sign-up needed — go straight to the building!
 - Your data never leaves your device
+- Sections tailored for teachers such as professional development, certification
+  and registration
+- Optional integration with Google's Gemini API to generate summaries and career
+  objectives
+  using the "Gemini Key" option in the navigation bar
 
 > Disclaimer: To enhance the vision and usage, we are shadowing our user's interactions. This is solely performed to serve you better
 
