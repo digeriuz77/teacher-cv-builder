@@ -15,6 +15,7 @@ https://e-resume.vercel.app
 [![Material React](https://skillicons.dev/icons?i=materialui)](https://mui.com/)
 [![TailwindCSS](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com/)
 <a href="https://github.com/pmndrs/zustand"><img src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/bear-face.png" alt="" height="48" width="48" /></a>
+
 </div>
 
 ## About
@@ -29,8 +30,13 @@ Features:
 - Simple interface that helps you build quickly!
 - No sign-up needed — go straight to the building!
 - Your data never leaves your device
-- Sections tailored for teachers such as professional development, certification
-  and registration
+Learn more about our design in the [_E-Resume — Build a professional resume: Design case study_ Medium post.](https://uxplanet.org/e-resume-build-a-professional-resume-design-case-study-3dc02a6359ea)
+
+## Quick tips
+
+- **Profile image** – Right-click your LinkedIn photo, copy its image address, and paste the link into **Basic → Contacts → Image URL**.
+- **Gemini API key** – Generate a key from [Google AI Studio](https://aistudio.google.com/app/apikey) and enter it via the **Gemini Key** option in the navigation bar to enable AI suggestions.
+File a [bug report](https://github.com/sadanandpai/resume-builder/issues/new?assignees=sadanandpai&labels=&template=bug_report.md&title=) or [feature request](https://github.com/sadanandpai/resume-builder/issues/new?assignees=sadanandpai&labels=&template=feature_request.md&title=) using the [New Issues](https://github.com/sadanandpai/resume-builder/issues/new/choose) page.
 - Optional integration with Google's Gemini API to generate summaries and career
   objectives
   using the "Gemini Key" option in the navigation bar
