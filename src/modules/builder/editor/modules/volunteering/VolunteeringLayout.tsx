@@ -27,7 +27,7 @@ const VolunteeringLayout = () => {
       {allVolunteeringExps.map((volunteeringInfo, index) => (
         <MoveEditSection
           key={volunteeringInfo.id}
-          title={volunteeringInfo.organization || 'Experience'}
+          title={volunteeringInfo.organization || 'Certification'}
           expanded={expanded === volunteeringInfo.id}
           length={allVolunteeringExps.length}
           index={index}
