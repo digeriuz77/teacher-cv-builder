@@ -27,7 +27,7 @@ const AwardsLayout = () => {
       {allAwards.map((award, index) => (
         <MoveEditSection
           key={award.id}
-          title={award.title || 'Award'}
+          title={award.title || 'Registration'}
           expanded={expanded === award.id}
           length={allAwards.length}
           index={index}
