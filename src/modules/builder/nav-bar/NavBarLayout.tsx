@@ -229,7 +229,10 @@ const NavBarLayout = () => {
         }}
         content={'Resume data was successfully imported.'}
       />
-      <GeminiKeyDialog open={geminiDialogOpen} onClose={() => setGeminiDialogOpen(false)} />
+      <GeminiKeyDialog
+        open={geminiDialogOpen}
+        onClose={() => setGeminiDialogOpen(false)}
+      />
     </nav>
   );
 };

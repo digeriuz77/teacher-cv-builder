@@ -9,11 +9,9 @@ export const geminiGenerate = async (apiKey: string, prompt: string) => {
       }),
     }
   );
-
   if (!res.ok) {
     throw new Error('Failed to generate content');
   }
-
   const data = await res.json();
   return data.candidates?.[0]?.content?.parts?.[0]?.text?.trim() ?? '';
 };
