@@ -1,6 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { ChangeEvent, Fragment } from 'react';
 import TextField from '@mui/material/TextField';
+import InputAdornment from '@mui/material/InputAdornment';
+import IconButton from '@mui/material/IconButton';
+import Tooltip from '@mui/material/Tooltip';
+import { AiOutlineInfoCircle } from 'react-icons/ai';
 
 const Contacts = ({
   basicTabs,
@@ -25,6 +29,17 @@ const Contacts = ({
         value={basicTabs.image}
         onChange={(event: ChangeEvent<HTMLInputElement>) => {
           onChangeHandler(event.target.value, 'image');
+        }}
+        InputProps={{
+          endAdornment: (
+            <InputAdornment position="end">
+              <Tooltip title="Right-click your LinkedIn profile picture, copy the image address, and paste it here">
+                <IconButton size="small">
+                  <AiOutlineInfoCircle />
+                </IconButton>
+              </Tooltip>
+            </InputAdornment>
+          ),
         }}
       />
       <TextField

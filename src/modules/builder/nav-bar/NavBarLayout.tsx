@@ -27,6 +27,7 @@ import { useEducations } from '@/stores/education';
 import { useExperiences } from '@/stores/experience';
 import { useVoluteeringStore } from '@/stores/volunteering';
 import { Menu, MenuItem } from '@mui/material';
+import GeminiKeyDialog from './components/GeminiKeyDialog';
 
 const TOTAL_TEMPLATES_AVAILABLE = Object.keys(AVAILABLE_TEMPLATES).length;
 
@@ -34,6 +35,7 @@ const NavBarLayout = () => {
   const [openToast, setOpenToast] = useState(false);
   const [menuAnchor, setMenuAnchor] = useState<null | HTMLElement>(null);
   const fileInputRef = useRef(null);
+  const [geminiDialogOpen, setGeminiDialogOpen] = useState(false);
 
   const handleMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
     setMenuAnchor(event.currentTarget);
@@ -164,6 +166,9 @@ const NavBarLayout = () => {
                 onChange={handleFileChange}
               />
             </StyledButton>
+            <StyledButton variant="text" onClick={() => setGeminiDialogOpen(true)}>
+              Gemini Key
+            </StyledButton>
             <PrintResume />
           </NavBarActions>
         </div>
@@ -207,6 +212,14 @@ const NavBarLayout = () => {
             onChange={handleFileChange}
           />
         </MenuItem>
+        <MenuItem
+          onClick={() => {
+            setGeminiDialogOpen(true);
+            handleMenuClose();
+          }}
+        >
+          Gemini Key
+        </MenuItem>
         <PrintResume isMenuButton />
       </Menu>
       <Toast
@@ -215,6 +228,10 @@ const NavBarLayout = () => {
           setOpenToast(false);
         }}
         content={'Resume data was successfully imported.'}
+      />
+      <GeminiKeyDialog
+        open={geminiDialogOpen}
+        onClose={() => setGeminiDialogOpen(false)}
       />
     </nav>
   );
