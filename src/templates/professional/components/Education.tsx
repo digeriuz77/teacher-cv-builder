@@ -1,5 +1,5 @@
-import { IEducation } from '@/stores/index.interface';
-import { dateParser } from '@/helpers/utils';
+import { IEducation } from '@/src/stores/index.interface';
+import { dateParser } from '@/src/helpers/utils';
 
 export const Education = ({ education }: { education: IEducation[] }) => {
   return (

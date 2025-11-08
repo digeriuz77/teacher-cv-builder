@@ -103,7 +103,7 @@ export function FontSettingsDialog({ open, onOpenChange }: FontSettingsDialogPro
           <div className="space-y-3">
             <Label>Preview</Label>
             <div className="border rounded-lg p-4 bg-gray-50" style={previewStyle}>
-              <h3 className="font-semibold mb-2">Work Experience</h3>
+              <h3 className="font-semibold mb-2">Teaching Experience</h3>
               <h4 className="font-medium">Senior English Teacher</h4>
               <p className="text-gray-600">International School</p>
               <p className="text-sm mt-1">

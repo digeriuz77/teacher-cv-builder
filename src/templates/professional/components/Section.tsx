@@ -1,7 +1,7 @@
 import React from 'react';
 import Color from 'color';
-import { IProfiles } from '@/stores/basic.interface';
-import { socialIcons } from '@/helpers/icons';
+import { IProfiles } from '@/src/stores/basic.interface';
+import { socialIcons } from '@/src/helpers/icons';
 import { BsGlobe } from 'react-icons/bs';
 import styled from '@emotion/styled';
 

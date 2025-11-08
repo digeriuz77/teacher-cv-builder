@@ -8,7 +8,7 @@ import Involvement from './components/Involvement';
 import { Objective } from './components/Objective';
 import RatedSkills from './components/RatedSkills';
 import { Section } from './components/Section';
-import { SectionValidator } from '@/helpers/common/components/ValidSectionRenderer';
+import { SectionValidator } from '@/src/helpers/common/components/ValidSectionRenderer';
 import { StateContext } from '@/modules/builder/resume/ResumeLayout';
 import UnratedSkills from './components/UnratedSkills';
 import Work from './components/Work';
@@ -60,7 +60,7 @@ export default function ProfessionalTemplate() {
           <BasicIntro basics={resumeData.basics} />
         </Section>
         <SectionValidator value={resumeData.work}>
-          <Section title="Work Experience">
+          <Section title="Teaching Experience">
             <Work work={resumeData.work} />
           </Section>
         </SectionValidator>

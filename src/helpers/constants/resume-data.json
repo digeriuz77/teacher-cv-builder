@@ -1,204 +1,177 @@
 {
   "basics": {
-    "name": "Jane Doe",
-    "label": "Frontend Engineer",
-    "image": "https://randomuser.me/api/portraits/men/18.jpg",
-    "email": "janedoe@email.com",
-    "phone": "+91 9876543210",
-    "url": "https://e-resume.vercel.app",
-    "summary": "I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.",
+    "name": "Sarah Mitchell",
+    "label": "Secondary Science Educator",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "sarah.mitchell@email.com",
+    "phone": "+1 (555) 123-4567",
+    "url": "",
+    "summary": "Dedicated and passionate science educator with 8 years of experience teaching Biology and Chemistry to secondary students. Committed to fostering scientific curiosity and critical thinking through inquiry-based learning and hands-on laboratory experiences. Proven track record of improving student engagement and academic achievement in both IB and AP curricula.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Bengaluru",
-      "countryCode": "",
-      "region": ""
+      "city": "Boston",
+      "countryCode": "US",
+      "region": "Massachusetts"
     },
-    "relExp": "4 years",
-    "totalExp": "6 Years",
-    "objective": "Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all executives.",
+    "relExp": "8 years",
+    "totalExp": "8 years",
+    "objective": "Seeking a position as a senior science teacher at an innovative international school where I can leverage my expertise in IB curriculum delivery and laboratory program development to inspire the next generation of scientific thinkers while contributing to curriculum innovation and teacher mentorship programs.",
     "profiles": [
       {
         "network": "linkedin",
-        "username": "sadanandpai",
-        "url": "https://www.linkedin.com/in/sadanandpai/"
-      },
-      {
-        "network": "twitter",
-        "username": "sadanand_pai",
-        "url": "https://x.com/sadanand_pai"
-      },
-      {
-        "network": "github",
-        "username": "sadanandpai",
-        "url": "https://github.com/sadanandpai/"
-      },
-      {
-        "network": "hackerrank",
-        "username": "paicube",
-        "url": "https://www.hackerrank.com/paicube/"
-      },
-      {
-        "network": "hackerearth",
-        "username": "sadanandpai",
-        "url": "https://www.hackerearth.com/sadanandpai/"
-      },
-      {
-        "network": "codechef",
-        "username": "sadanandpai",
-        "url": "https://www.codechef.com/sadanandpai/"
-      },
-      {
-        "network": "leetcode",
-        "username": "sadanandpai",
-        "url": "https://leetcode.com/sadanandpai/"
+        "username": "sarahmitchell-educator",
+        "url": ""
       }
     ]
   },
 
   "skills": {
     "languages": [
-      { "name": "JavaScript", "level": 90 },
-      { "name": "HTML5", "level": 80 },
-      { "name": "CSS", "level": 80 }
+      { "name": "International Baccalaureate (IB)", "level": 90 },
+      { "name": "Advanced Placement (AP)", "level": 85 },
+      { "name": "Next Generation Science Standards (NGSS)", "level": 80 }
     ],
     "frameworks": [
-      { "name": "React", "level": 70 },
-      { "name": "Angular", "level": 70 }
+      { "name": "Inquiry-Based Learning", "level": 90 },
+      { "name": "Differentiated Instruction", "level": 85 },
+      { "name": "Project-Based Learning (PBL)", "level": 75 }
     ],
     "technologies": [
-      { "name": "Algorithms", "level": 3 },
-      { "name": "Progressive Web Apps", "level": 3 },
-      { "name": "SQL", "level": 3 },
-      { "name": "Data Structures", "level": 3 }
+      { "name": "Classroom Management", "level": 5 },
+      { "name": "Laboratory Safety & Management", "level": 5 },
+      { "name": "STEAM Integration", "level": 4 },
+      { "name": "Social-Emotional Learning (SEL)", "level": 4 }
     ],
     "libraries": [
-      { "name": "jQuery", "level": 3 },
-      { "name": "Redux", "level": 3 }
+      { "name": "Formative Assessment Strategies", "level": 5 },
+      { "name": "Backward Design (UbD)", "level": 4 },
+      { "name": "Universal Design for Learning (UDL)", "level": 4 }
     ],
-    "databases": [{ "name": "Firebase", "level": 3 }],
+    "databases": [
+      { "name": "Data-Driven Instruction", "level": 5 },
+      { "name": "Progress Monitoring", "level": 4 }
+    ],
     "practices": [
-      { "name": "Component based architecture", "level": 3 },
-      { "name": "Agile methodology", "level": 3 },
-      { "name": "Design Patterns", "level": 3 },
-      { "name": "Test Driven Development", "level": 3 },
-      { "name": "MVC", "level": 3 }
+      { "name": "Culturally Responsive Teaching", "level": 5 },
+      { "name": "Trauma-Informed Practices", "level": 4 },
+      { "name": "Growth Mindset Development", "level": 5 },
+      { "name": "Collaborative Learning", "level": 5 },
+      { "name": "Cross-Curricular Integration", "level": 4 }
     ],
     "tools": [
-      { "name": "Git", "level": 3 },
-      { "name": "VS Code", "level": 3 },
-      { "name": "Jira", "level": 3 },
-      { "name": "Webpack", "level": 3 },
-      { "name": "Eclipse", "level": 3 },
-      { "name": "Bitbucket", "level": 3 }
+      { "name": "Google Classroom", "level": 5 },
+      { "name": "Managebac (IB)", "level": 4 },
+      { "name": "Labster (Virtual Labs)", "level": 4 },
+      { "name": "Kahoot/Quizizz", "level": 5 },
+      { "name": "Turnitin", "level": 4 },
+      { "name": "Zoom/Microsoft Teams", "level": 5 }
     ]
   },
 
   "work": [
     {
       "id": "1",
-      "name": "Company 1",
-      "position": "Senior Software Developer",
+      "name": "Boston International Academy",
+      "position": "IB Biology & Chemistry Teacher",
       "url": "",
-      "startDate": "Apr 2021",
+      "startDate": "Aug 2019",
       "isWorkingHere": true,
       "endDate": null,
       "highlights": [
-        "* Worked on a team of 5 developers to develop a web application for a client"
+        "* Led department-wide initiative to integrate inquiry-based learning, resulting in 25% improvement in student engagement scores"
       ],
-      "summary": "<ul><li> Use my extensive experience with front end development to define the structure and components for the project, making sure they are reusable</li><li>Keep the code quality high reviewing code from other developers and suggesting improvements</li><li> Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality</li><li> E-commerce maintenance <strong>with Fastcommerce</strong>, a Brazilian e-commerce platform</li></ul>",
+      "summary": "<ul><li>Teach IB Biology HL/SL and Chemistry SL to grades 11-12, maintaining 92% student pass rate with 68% achieving scores of 6-7</li><li>Developed and implemented comprehensive laboratory program aligned with IB internal assessment requirements</li><li>Serve as IB Science Department Coordinator, leading curriculum development and teacher training for team of 6 educators</li><li>Mentor new teachers and provide ongoing professional development in inquiry-based pedagogy and IB assessment standards</li><li>Established virtual laboratory program during COVID-19, ensuring continuity of hands-on learning experiences</li></ul>",
       "years": ""
     },
     {
       "id": "2",
-      "name": "Company 2",
-      "position": "Software Developer",
+      "name": "Lincoln High School",
+      "position": "Science Teacher (Biology & General Science)",
       "url": "",
-      "startDate": "Jun 2015",
+      "startDate": "Aug 2016",
       "isWorkingHere": false,
-      "endDate": "Dec 2017",
+      "endDate": "Jun 2019",
       "highlights": [
-        "* Worked on a team of 5 developers to develop a web application for a client"
+        "* Increased AP Biology pass rate from 65% to 84% over three years through targeted intervention and differentiated instruction"
       ],
-      "summary": "<ul><li>Develop web applications based on Sharepoint, Drupal 8, Salesforce and Episerver</li><li>Lead a team of 10 front end developers, giving support to the client's multi-cultural team, providing feedback, clarifying requirements and helping with technical questions</li><li>Keep the Project Manager and the IT Leads updated on the overall progress of the projects and manage the tasks distributed to the team</li><li>Keep the code and the features implemented by the other developers in accordance to the requirements</li></ul>",
-      "years": "2 years"
-    },
-    {
-      "id": "3",
-      "name": "Company 3",
-      "position": "Trainee Developer",
-      "url": "",
-      "startDate": "Aug 2011",
-      "isWorkingHere": false,
-      "endDate": "May 2015",
-      "highlights": [
-        "* Worked on a team of 5 developers to develop a web application for a client"
-      ],
-      "summary": "<ul><li>Design easy user interfaces and great user experiences for the digital platforms of small companies</li><li>Wordpress development, including themes creation or customization, custom plugins development and training</li><li>E-commerce maintenance with Fastcommerce, a Brazilian e-commerce platform</li><li>E-commerce development with Magento, customizing preexisting themes</li><li>Integrate external services such as payment services, delivery, etc into Magento solutions</li></ul>",
-      "years": "4 year"
+      "summary": "<ul><li>Taught AP Biology, Honors Biology, and General Science to grades 9-12, serving diverse student population including ELL and special education students</li><li>Redesigned curriculum to align with NGSS standards, emphasizing cross-cutting concepts and scientific practices</li><li>Collaborated with special education department to develop accommodations and modified assessments for students with IEPs</li><li>Coordinated school-wide Science Fair, engaging 200+ students in authentic scientific research projects</li><li>Integrated technology tools including virtual simulations and data analysis software to enhance student learning</li></ul>",
+      "years": "3 years"
     }
   ],
 
   "education": [
     {
       "id": "1",
-      "institution": "MIT, University",
-      "url": "https://www.mit.edu/",
-      "studyType": "MS",
-      "area": "Cloud technology",
+      "institution": "Harvard Graduate School of Education",
+      "url": "",
+      "studyType": "Master of Education (Ed.M.)",
+      "area": "Learning and Teaching - Science Education",
       "startDate": "2014",
       "isStudyingHere": false,
       "endDate": "2016",
-      "score": "68%",
+      "score": "3.8 GPA",
       "courses": []
     },
     {
       "id": "2",
-      "institution": "NMAMIT, Nitte",
-      "url": "https://www.mit.edu/",
-      "studyType": "B.Tech (VTU)",
-      "area": "Computer Science",
+      "institution": "Boston University",
+      "url": "",
+      "studyType": "Bachelor of Science",
+      "area": "Biology with Secondary Education Certification",
       "startDate": "2010",
       "isStudyingHere": false,
       "endDate": "2014",
-      "score": "8.3 CGPA",
+      "score": "Magna Cum Laude",
       "courses": []
     }
   ],
 
   "activities": {
-    "involvements": "<ul><li>Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.</li><li>Isolated previously undiscovered flaw in price checking tool resulting in more competitive pricing and a 20 percent increase in revenue.</li><li>Implemented automated testing tools spawning more diligent levels of regression testing, negative testing, error/bug retests and usability.</li><li>Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.</li></ul>",
+    "involvements": "<ul><li>Founded and advise Environmental Science Club with 35 active student members, coordinating campus sustainability initiatives and community outreach projects</li><li>Organized and led annual 10-day marine biology field study trip to Bahamas for 20 students, providing hands-on research experience</li><li>Developed school-wide STEM mentorship program pairing 12th grade students with 9th graders, improving freshman science course success rates by 18%</li><li>Serve as Faculty Advisor for Science Olympiad team, coaching students to regional championships for two consecutive years</li></ul>",
 
-    "achievements": "<ul><li>React and redux - A complete guide 2020 from Udemy</li><li>Agile and Scrum Master Certificate from Udacity</li><li>Best performer award for consistently exceeding the performance</li><li>Certificate of exceptional bug finder by XYZ client</li><li>Recognition zero defect delivery</li><li>Best performer award for consistently exceeding the performance</li></ul>"
+    "achievements": "<ul><li>IB Category 1 Workshop Leader Certification - Biology (2022)</li><li>Recipient of Excellence in Science Teaching Award from Massachusetts Science Teachers Association (2021)</li><li>Published article 'Bringing Authentic Research into the High School Classroom' in NSTA journal (2020)</li><li>Selected for competitive Teacher Leadership Program cohort by district administration (2019-2020)</li><li>Completed AP Biology Teaching Certification with College Board (2017)</li><li>Nominated for Teacher of the Year by student body (2018, 2022)</li></ul>"
   },
 
   "volunteer": [
     {
       "id": "1",
-      "organization": "Company XYZ",
-      "position": "Organizer",
-      "url": "https://xyx.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Organized several hackthons & monthly meetup to improve the community",
-      "highlights": ["Awarded 'Volunteer of the Month'"],
-      "isVolunteeringNow": false
-    }
-  ],
-  "awards": [
-    {
-      "id": "1",
-      "title": "Certificate of exceptional bug finder",
-      "date": "2014-11-01",
-      "awarder": "XYZ client",
-      "summary": "* Recognition zero defect delivery"
+      "organization": "Massachusetts Teaching License - Biology (Grades 8-12)",
+      "position": "License #: 234567",
+      "url": "",
+      "startDate": "2014-09-01",
+      "endDate": "2029-09-01",
+      "summary": "Valid through September 2029 | Includes SEI Endorsement for English Language Learners",
+      "highlights": [],
+      "isVolunteeringNow": true
     },
     {
       "id": "2",
-      "title": "Certificate of best frontend developer",
-      "date": "2016-11-01",
-      "awarder": "XYZ client",
-      "summary": "Awarded for exceptional improvements made to improve user experience"
+      "organization": "IB Teaching Certificate - Biology",
+      "position": "Certificate Holder",
+      "url": "",
+      "startDate": "2019-08-01",
+      "endDate": "",
+      "summary": "Completed IB Category 1, 2, and 3 workshops for Biology HL/SL and Theory of Knowledge",
+      "highlights": [],
+      "isVolunteeringNow": true
+    }
+  ],
+
+  "awards": [
+    {
+      "id": "1",
+      "title": "Excellence in Science Teaching Award",
+      "date": "2021-04-15",
+      "awarder": "Massachusetts Science Teachers Association",
+      "summary": "Recognized for innovative teaching practices and outstanding contribution to science education"
+    },
+    {
+      "id": "2",
+      "title": "Teacher of the Year Nominee",
+      "date": "2022-05-01",
+      "awarder": "Boston International Academy",
+      "summary": "Nominated by student body for exceptional dedication and impact on student learning"
     }
   ]
 }

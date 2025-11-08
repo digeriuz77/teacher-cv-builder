@@ -16,7 +16,7 @@ interface ExperienceSectionProps {
 }
 
 export function ExperienceSection({
-  title = "Work Experience",
+  title = "Teaching Experience",
   titleEditable = false,
   titleValue = "",
   onTitleChange,

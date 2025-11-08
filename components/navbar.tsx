@@ -5,7 +5,8 @@ import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { ThemeSelect } from "./theme-select"
 import { TemplateSelect } from "./template-select"
-import { Download, MoreHorizontal, Palette, Layout } from "lucide-react"
+import { TailorDemoDialog } from "./tailor-demo-dialog"
+import { Download, MoreHorizontal, Palette, Layout, Sparkles } from "lucide-react"
 import { useToast } from "@/components/ui/use-toast"
 
 interface NavbarProps {
@@ -15,12 +16,13 @@ interface NavbarProps {
 export function Navbar({ onDownloadPDF }: NavbarProps) {
   const [templateMenuOpen, setTemplateMenuOpen] = useState(false)
   const [colorMenuOpen, setColorMenuOpen] = useState(false)
+  const [tailorDemoOpen, setTailorDemoOpen] = useState(false)
   const { toast } = useToast()
 
   useEffect(() => {
     const handleBeforePrint = () => {
       // Set a clean document title without timestamp for the PDF
-      document.title = "Professional_Resume"
+      document.title = "Educator_CV"
     }
 
     const handleAfterPrint = () => {
@@ -66,6 +68,17 @@ export function Navbar({ onDownloadPDF }: NavbarProps) {
             <Palette className="w-4 h-4 mr-2" />
             Colors
           </Button>
+          <Button
+            variant="ghost"
+            className="text-white hover:bg-purple-700 hover:text-white relative"
+            onClick={() => setTailorDemoOpen(true)}
+          >
+            <Sparkles className="w-4 h-4 mr-2" />
+            Tailor to School
+            <span className="absolute -top-1 -right-1 bg-purple-500 text-white text-xs px-1.5 py-0.5 rounded-full">
+              AI
+            </span>
+          </Button>
         </div>
 
         <div className="hidden md:flex space-x-2">
@@ -88,14 +101,18 @@ export function Navbar({ onDownloadPDF }: NavbarProps) {
           <DropdownMenuContent align="end">
             <DropdownMenuItem onClick={() => setTemplateMenuOpen(true)}>Templates</DropdownMenuItem>
             <DropdownMenuItem onClick={() => setColorMenuOpen(true)}>Colors</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => setTailorDemoOpen(true)}>
+              <Sparkles className="w-4 h-4 mr-2" />
+              Tailor to School (AI)
+            </DropdownMenuItem>
             <DropdownMenuItem onClick={handleDownloadPDF}>Download as PDF</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
 
       <TemplateSelect open={templateMenuOpen} onOpenChange={setTemplateMenuOpen} />
-
       <ThemeSelect open={colorMenuOpen} onOpenChange={setColorMenuOpen} />
+      <TailorDemoDialog open={tailorDemoOpen} onOpenChange={setTailorDemoOpen} />
     </nav>
   )
 }

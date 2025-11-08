@@ -270,7 +270,7 @@ export function ExperienceEditor() {
       </div>
 
       <div className="space-y-4">
-        <h3 className="text-lg font-medium">Work Experience</h3>
+        <h3 className="text-lg font-medium">Teaching Experience</h3>
         {experience.length === 0 ? (
           <p className="text-slate-500 italic">No experience entries yet. Add your first experience above.</p>
         ) : (

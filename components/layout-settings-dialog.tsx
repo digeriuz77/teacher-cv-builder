@@ -63,7 +63,7 @@ export function LayoutSettingsDialog({ open, onOpenChange }: LayoutSettingsDialo
       case "education":
         return "Education"
       case "experience":
-        return "Work Experience"
+        return "Teaching Experience"
       case "activities":
         return "Professional Educator Experiences"
       case "volunteering":
